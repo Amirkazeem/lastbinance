@@ -1,0 +1,38 @@
+{
+  "brandName": "Exchange",
+  "avatarInitial": "A",
+  "userEmail": "amirkazemapple5bi@gmail.com",
+  "accountName": "Amirkazem Mousavi",
+  "targetUsdValue": 86285,
+  "btcSharePercent": 0.35,
+  "targetUnitLabel": "USDT",
+  "priceRefreshMs": 12000,
+  "tomanUsdRate": 88000,
+  "altPriceRefreshMs": 8000,
+  "fallbackPrices": {
+    "BTC": 65600,
+    "ETH": 1920,
+    "LINK": 8.59,
+    "AVAX": 6.52,
+    "BNB": 569,
+    "OP": 0.10,
+    "LTC": 47,
+    "BCH": 218,
+    "DASH": 33.5,
+    "XMR": 352
+  },
+  "altAssets": [
+    { "id": "ethereum", "symbol": "ETH", "name": "Ethereum", "mode": "proportional", "weight": 0.55 },
+    { "id": "chainlink", "symbol": "LINK", "name": "Chainlink", "mode": "fixed", "amountToman": 14873000 },
+    { "id": "avalanche-2", "symbol": "AVAX", "name": "Avalanche", "mode": "fixed", "amountToman": 14873000 },
+    { "id": "binancecoin", "symbol": "BNB", "name": "BNB", "mode": "fixed", "amountToman": 14873000 },
+    { "id": "optimism", "symbol": "OP", "name": "Optimism", "mode": "fixed", "amountToman": 14873000 },
+    { "id": "litecoin", "symbol": "LTC", "name": "Litecoin", "mode": "fixed", "amountToman": 14873000 },
+    { "id": "bitcoin-cash", "symbol": "BCH", "name": "Bitcoin Cash", "mode": "proportional", "weight": 0.25 },
+    { "id": "dash", "symbol": "DASH", "name": "Dash", "mode": "proportional", "weight": 0.12 },
+    { "id": "monero", "symbol": "XMR", "name": "Monero", "mode": "proportional", "weight": 0.08 }
+  ],
+  "legalParagraph1": "This is a demo interface built for design-preview purposes only. All balances, prices and account details shown are placeholders and do not represent real funds, a real account, or any real exchange.",
+  "legalParagraph2": "Risk Warning: virtual asset prices can be volatile. The value of an investment may go down or up and you may not get back the amount invested. You are solely responsible for your investment decisions.",
+  "copyrightName": "Amir"
+}
